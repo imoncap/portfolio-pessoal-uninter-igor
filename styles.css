@@ -1,0 +1,136 @@
+/* Importa a fonte 'Montserrat' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Define a fonte da página */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: #ffffff; /* Define o fundo como branco puro */
+    color: #333; /* Define a cor do texto em cinza escuro */
+}
+
+header {
+    background-color: #2b2b2b; /* Define o fundo do cabeçalho como preto suave */
+    color: #ffffff; /* Define a cor do texto no cabeçalho como branco puro */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    padding: 20px 0; /* Adiciona preenchimento vertical ao cabeçalho */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao cabeçalho */
+}
+
+header h1 {
+    margin: 0; /* Remove margens do título */
+    font-size: 2.5em; /* Define o tamanho da fonte do título */
+    color: #ffffff; /* Define a cor do título como branco puro */
+}
+
+header nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento da lista */
+    margin: 20px 0 0 0; /* Adiciona margem superior à lista */
+    display: flex; /* Define o layout flexível para a lista */
+    justify-content: center; /* Centraliza os itens da lista */
+}
+
+header nav ul li {
+    margin: 0 20px; /* Adiciona margem horizontal aos itens da lista */
+}
+
+header nav ul li a {
+    color: #ffffff; /* Define a cor dos links como branco puro */
+    text-decoration: none; /* Remove a decoração dos links */
+    font-weight: 700; /* Define o peso da fonte dos links */
+}
+
+header nav ul li a:hover {
+    color: #2980b9; /* Define a cor dos links ao passar o mouse como azul */
+}
+
+main {
+    padding: 40px 20px; /* Adiciona preenchimento ao conteúdo principal */
+    max-width: 900px; /* Define a largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal */
+    line-height: 1.8; /* Define o espaçamento entre linhas */
+}
+
+footer {
+    background-color: #2b2b2b; /* Define o fundo do rodapé como preto suave */
+    color: #ffffff; /* Define a cor do texto no rodapé como branco puro */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 20px 0; /* Adiciona preenchimento vertical ao rodapé */
+    margin-top: 40px; /* Adiciona margem superior ao rodapé */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao rodapé */
+}
+
+h1, h2 {
+    color: #2b2b2b; /* Define a cor dos títulos como preto suave */
+}
+
+form {
+    max-width: 700px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+    padding: 30px; /* Adiciona preenchimento ao formulário */
+    background: #f8f8f8; /* Define o fundo do formulário como claro */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao formulário */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao formulário */
+}
+
+form label {
+    display: block; /* Define os rótulos como blocos */
+    margin-bottom: 10px; /* Adiciona margem inferior aos rótulos */
+    font-weight: 700; /* Define o peso da fonte dos rótulos */
+}
+
+form input, form textarea, form button {
+    width: 100%; /* Define a largura total dos elementos do formulário */
+    padding: 15px; /* Adiciona preenchimento aos elementos do formulário */
+    margin-bottom: 15px; /* Adiciona margem inferior aos elementos do formulário */
+    border: 1px solid #ccc; /* Define a borda dos elementos do formulário */
+    border-radius: 8px; /* Adiciona bordas arredondadas aos elementos do formulário */
+    font-family: 'Montserrat', sans-serif; /* Define a fonte dos elementos do formulário */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #2980b9; /* Define a cor da borda ao focar como azul */
+    outline: none; /* Remove o contorno padrão ao focar */
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.3); /* Adiciona uma sombra ao focar */
+}
+
+form button {
+    background-color: #2b2b2b; /* Define o fundo do botão como preto suave */
+    color: #ffffff; /* Define a cor do texto do botão como branco puro */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Define o cursor como ponteiro */
+    transition: background-color 0.3s ease; /* Adiciona transição ao fundo do botão */
+}
+
+form button:hover {
+    background-color: #2980b9; /* Define a cor do fundo ao passar o mouse como azul  */
+}
+
+/* Links */
+a {
+    color: #2b2b2b; /* Define a cor dos links como preto suave */
+    text-decoration: none; /* Remove a decoração dos links */
+    font-weight: 700; /* Define o peso da fonte dos links */
+}
+
+a:hover {
+    color: #2980b9; /* Define a cor dos links ao passar o mouse como azul */
+    text-decoration: underline; /* Adiciona sublinhado aos links ao passar o mouse */
+}
+
+/* Estilo para destacar o link na seção de portfólio */
+.portfolio-link {
+    display: inline-block; /* Define o link como bloco inline */
+    background-color: #2b2b2b; /* Define o fundo do link como preto suave */
+    color: #ffffff; /* Define a cor do texto do link como branco puro */
+    padding: 15px 30px; /* Adiciona preenchimento ao link */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao link */
+    text-decoration: none; /* Remove a decoração do link */
+    transition: background-color 0.3s ease; /* Adiciona transição ao fundo do link */
+}
+
+.portfolio-link:hover {
+    background-color: #2980b9; /* Define a cor do fundo ao passar o mouse como azul  */
+    color: #ffffff; /* Mantém a cor do texto do link como branco puro */
+}
